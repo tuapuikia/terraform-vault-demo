@@ -1,0 +1,8 @@
+env.sh
+prep/demo-policy.hcl
+prep/env.sh
+terraform.tfstate
+.terraform/plugins
+.terraform
+terraform.tfstate.backup
+secret.yaml

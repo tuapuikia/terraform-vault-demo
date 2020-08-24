@@ -16,8 +16,12 @@ export VAULT_TOKEN=<my vault token>
 ```
 
 Step 1:
-  1. vault kv put secret/data/demo SAMPLE_API_KEY=<this is my super api key id> SAMPLE_PASSWORD=<this is my super secret>
+```
+vault kv put secret/data/demo SAMPLE_API_KEY=mysecretid SAMPLE_PASSWORD=mysupersecret
+```
 
 Step 2:
+```
   1. terraform plan
   2. terraform apply
+```

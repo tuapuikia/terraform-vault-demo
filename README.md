@@ -5,12 +5,13 @@ Requirement:
   4. Vault token
   5. Secret stored in vault
 
-export TF_VAR_vault_addr=http://localhost:8200
-export TF_VAR_vault_namespace=<my project namespace>
-export TF_VAR_token=<my vault token>
-export VAULT_ADDR=http://localhost:8200
-export VAULT_NAMESPACE=<my project namespace>
-export VAULT_TOKEN=<my vault token>
+Environment Variables:
+: export TF_VAR_vault_addr=http://localhost:8200
+: export TF_VAR_vault_namespace=<my project namespace>
+: export TF_VAR_token=<my vault token>
+: export VAULT_ADDR=http://localhost:8200
+: export VAULT_NAMESPACE=<my project namespace>
+: export VAULT_TOKEN=<my vault token>
 
 
 Step 1:
